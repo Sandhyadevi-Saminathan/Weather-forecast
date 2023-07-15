@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -14,14 +14,22 @@
 }
 
 .App-header {
+  background-image: url(https://th.bing.com/th/id/R.abe4ce7ce803dcb37314bbd5e3fbcb7b?rik=5ilEAiHD4g83PQ&riu=http%3a%2f%2fil8.picdn.net%2fshutterstock%2fvideos%2f769723%2fthumb%2f1.jpg&ehk=Et2pNq31FXmBtN8Av8QusvVN%2fb0crLUZXNduUu9jO5s%3d&risl=&pid=ImgRaw&r=0);
+  background-repeat: no-repeat;
+  background-size: 1680px 1050px;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.card-img {
+  background-repeat: no-repeat;
+  background-size: 1680px 1050px;
 }
 
 .App-link {
@@ -32,7 +40,38 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.center-screen {
+  margin-top: 150px;
+
+}
+
+.title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  font-weight: bolder;
+  color: darkblue;
+
+}
+
+.card-body {
+  font-family: cursive;
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+#weatherInput {
+  padding: 8px 12px;
+  border: none;
+  margin-right: 15px;
+}
+
+.weather button {
+  padding: 8px 12px;
+  border: none;
 }
